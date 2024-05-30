@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const instance  = axios.create({
-  baseURL:'https://service-5u1neg12-1307963180.gz.tencentapigw.com.cn/release/'
-  // baseURL:'http://192.168.2.108:3000/'
+  baseURL:'https://musicapi.haoxiang6436.top/'
 });
 
 // 添加请求拦截器
